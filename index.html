@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulatorku</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h2 class="title">Aplikasi Kalkulatorku</h2>
+      <form id="form">
+        <label for="num1">Masukan Angka Pertama*</label>
+        <div class="input">
+          <input type="text" autocomplete="off" id="num1" onkeyup="tes(1)" />
+          <img src="ceklis.png" alt="icon ceklis" id="ceklis1" />
+        </div>
+        <label for="num2">Masukan Angka Kedua*</label>
+        <div class="input">
+          <input type="text" autocomplete="off" id="num2" onkeyup="tes(2)" />
+          <img src="ceklis.png" alt="icon ceklis" id="ceklis2" />
+        </div>
+        <label for="num3">Masukan Angka Ketiga</label>
+        <div class="input">
+          <input type="text" autocomplete="off" id="num3" onkeyup="tes(3)" />
+          <img src="ceklis.png" alt="icon ceklis" id="ceklis3" />
+        </div>
+        <button id="plus" type="button" onclick="count(1)">+</button>
+        <button id="plus" type="button" onclick="count(2)">-</button>
+        <button id="plus" type="button" onclick="count(3)">x</button>
+        <button id="plus" type="button" onclick="count(4)">/</button>
+        <h3>Hasilnya adalah: <span id="result">-</span></h3>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,103 @@
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f7f8fe;
+  width: 100%;
+}
+
+div.wrapper {
+  background-color: white;
+  border: 1px solid #eeeeee;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  height: auto;
+  padding: 30px;
+  margin: auto;
+  margin-top: 30px;
+  position: relative;
+  width: 400px;
+}
+
+div.wrapper h2.title {
+  border-bottom: 1px solid #ddd;
+  color: #333333;
+  font-size: 22px;
+  margin-bottom: 30px;
+  padding-bottom: 15px;
+}
+
+div.wrapper label {
+  color: #444444;
+  font-family: "calibri";
+  font-size: 17px;
+}
+
+div.wrapper div.input {
+  width: 100%;
+}
+
+div.wrapper div.input input {
+  border: 1px solid #aaaaaa;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: #444444;
+  float: left;
+  font-family: "calibri";
+  font-size: 17px;
+  font-weight: bold;
+  height: 40px;
+  margin-bottom: 15px;
+  margin-right: 10px;
+  margin-top: 7px;
+  padding: 0 10px;
+  outline: none;
+  transition: box-shadow 0.2s;
+  width: calc(100% - 40px);
+  width: 100%;
+}
+
+div.wrapper div.input input:focus {
+  border: 1px solid darkgreen;
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.1);
+}
+
+div.wrapper div.input img {
+  display: none;
+  position: relative;
+  top: 12px;
+  width: 30px;
+}
+
+div.wrapper button {
+  background-color: white;
+  border: 2px solid #555555;
+  border-radius: 5px;
+  color: #555555;
+  cursor: pointer;
+  font-family: "calibri";
+  font-size: 20px;
+  font-weight: bold;
+  height: 40px;
+  margin: 5px;
+  outline: none;
+  transition: 0.2s;
+  width: 40px;
+}
+
+div.wrapper button:hover {
+  background-color: #555555;
+  color: white;
+}
+
+div.wrapper h3 {
+  border-top: 1px solid #aaaaaa;
+  color: #444444;
+  font-size: 20px;
+  margin-top: 15px;
+  padding-top: 15px;
+}
